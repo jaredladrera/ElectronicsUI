@@ -1,47 +1,49 @@
 
 
-
-<div class="card">
-    <div class="card-header">
-        <h2>Create Device Information</h2>
-    </div>
-    <div class="card-body">
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h2>Create Device Information</h2>
+        </div>
+        <div class="card-body">
+        
     
-
-        <div class="form-group">
-            <label>ID</label>
-            <input type="number" class="form-control" id="deviceId" placeholder="Enter Device id number only">
+            <div class="form-group">
+                <label>ID</label>
+                <input type="number" class="form-control" id="deviceId" placeholder="Enter Device id number only">
+            </div>
+            <div class="form-group">
+                <label>Control Number</label>
+                <input type="number" class="form-control" id="controlnumber" placeholder="Enter Control Number. Number only">
+            </div>
+            <div class="form-group">
+                <label>Brand</label>
+                <input type="text" class="form-control" id="brand" placeholder="Enter Brand">
+            </div>
+            <div class="form-group">
+                <label>Model</label>
+                <input type="text" class="form-control" id="model" placeholder="Enter Model">
+            </div>
+            <div class="form-group">
+                <label>High End</label>
+                <select name="cars" class="custom-select mb-3">
+                    <option selected disabled>Select an option</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Release Date</label>
+                <input type="date" name="releaseDate" placeholder="select Release date" class="form-control">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-info" >Save</button>&nbsp;
+                <button class="btn btn-danger" >Clear</button>
+            </div>
         </div>
-        <div class="form-group">
-            <label>Control Number</label>
-            <input type="number" class="form-control" id="controlnumber" placeholder="Enter Control Number. Number only">
-        </div>
-        <div class="form-group">
-            <label>Brand</label>
-            <input type="text" class="form-control" id="brand" placeholder="Enter Brand">
-        </div>
-        <div class="form-group">
-            <label>Model</label>
-            <input type="text" class="form-control" id="model" placeholder="Enter Model">
-        </div>
-        <div class="form-group">
-            <label>High End</label>
-            <select name="cars" class="custom-select mb-3">
-                <option selected disabled>Select an option</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label>Release Date</label>
-            <input type="date" name="releaseDate" placeholder="select Release date" class="form-control">
-        </div>
-        <div class="form-group">
-            <button class="btn btn-info" >Save</button>&nbsp;
-            <button class="btn btn-danger" >Clear</button>
-        </div>
-    </div>
-  </div>
+      </div>
+    
+</div>
 
 
 
